@@ -1,0 +1,7 @@
+network,data_types,base_match_rate,base_density
+Carequality,conditions|encounters|medications|labs|documents|allergies|immunizations,0.86,0.78
+CommonWell,conditions|encounters|medications|labs|documents|allergies|immunizations,0.8,0.7
+Surescripts,medications,0.93,0.9
+Quest Labs,labs,0.88,0.62
+Bamboo Health,adt_events,0.84,0.55
+PointClickCare,adt_events,0.82,0.48
