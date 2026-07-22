@@ -1,0 +1,4 @@
+state,data_type,patients_queried,patients_matched,patients_with_data,records_returned,match_rate,hit_rate,coverage_rate,records_per_hit,median_freshness_days,national_coverage,gap_pct_vs_national,severity
+MS,documents,22358.0,17028.0,6800.0,28859.0,0.762,0.399,0.304,4.244,14.4,0.549,-44.56,medium
+TX,documents,39270.0,29510.0,12365.0,52659.0,0.751,0.419,0.315,4.259,16.35,0.549,-42.604,medium
+OK,documents,13896.0,10848.0,4506.0,19027.0,0.781,0.415,0.324,4.223,15.55,0.549,-40.892,medium

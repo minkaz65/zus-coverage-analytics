@@ -1,0 +1,480 @@
+month,scope,entity,metric,value,baseline_median,robust_z,direction,severity,method
+2025-11,network,Bamboo Health,coverage_rate,0.395,0.411,-3.32,drop,medium,robust_zscore
+2026-01,network,Bamboo Health,coverage_rate,0.398,0.411,-2.57,drop,medium,robust_zscore
+2025-11,network,Bamboo Health,match_rate,0.767,0.787,-6.13,drop,high,robust_zscore
+2025-12,network,Bamboo Health,match_rate,0.765,0.787,-6.59,drop,high,robust_zscore
+2026-01,network,Bamboo Health,match_rate,0.765,0.787,-6.7,drop,high,robust_zscore
+2026-02,network,Bamboo Health,match_rate,0.766,0.787,-6.37,drop,high,robust_zscore
+2025-11,network,Carequality,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network,Carequality,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network,Carequality,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network,Carequality,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2025-09,network,Carequality,median_freshness_days,12.6,12.3,4.05,spike,high,robust_zscore
+2026-04,network,Carequality,median_freshness_days,11.9,12.3,-5.4,drop,high,robust_zscore
+2025-11,network,CommonWell,coverage_rate,0.479,0.492,-2.88,drop,medium,robust_zscore
+2025-12,network,CommonWell,coverage_rate,0.477,0.492,-3.4,drop,medium,robust_zscore
+2026-01,network,CommonWell,coverage_rate,0.48,0.492,-2.68,drop,medium,robust_zscore
+2026-02,network,CommonWell,coverage_rate,0.476,0.492,-3.7,drop,medium,robust_zscore
+2026-06,network,CommonWell,median_freshness_days,11.9,12.3,-2.7,drop,medium,robust_zscore
+2025-11,network,PointClickCare,match_rate,0.744,0.767,-5.71,drop,high,robust_zscore
+2025-12,network,PointClickCare,match_rate,0.746,0.767,-5.21,drop,high,robust_zscore
+2026-01,network,PointClickCare,match_rate,0.742,0.767,-6.03,drop,high,robust_zscore
+2026-02,network,PointClickCare,match_rate,0.745,0.767,-5.32,drop,high,robust_zscore
+2025-11,network,Quest Labs,match_rate,0.802,0.824,-4.49,drop,high,robust_zscore
+2025-12,network,Quest Labs,match_rate,0.799,0.824,-5.13,drop,high,robust_zscore
+2026-01,network,Quest Labs,match_rate,0.799,0.824,-5.18,drop,high,robust_zscore
+2026-02,network,Quest Labs,match_rate,0.799,0.824,-5.2,drop,high,robust_zscore
+2026-04,network,Quest Labs,median_freshness_days,19.3,3.2,108.59,spike,high,robust_zscore
+2026-05,network,Quest Labs,median_freshness_days,19.0,3.2,106.57,spike,high,robust_zscore
+2025-11,network,Surescripts,coverage_rate,0.723,0.742,-2.84,drop,medium,robust_zscore
+2026-01,network,Surescripts,coverage_rate,0.721,0.742,-3.13,drop,medium,robust_zscore
+2026-02,network,Surescripts,coverage_rate,0.715,0.742,-4.17,drop,high,robust_zscore
+2025-11,network,Surescripts,match_rate,0.846,0.871,-6.98,drop,high,robust_zscore
+2025-12,network,Surescripts,match_rate,0.847,0.871,-6.7,drop,high,robust_zscore
+2026-01,network,Surescripts,match_rate,0.847,0.871,-6.76,drop,high,robust_zscore
+2026-02,network,Surescripts,match_rate,0.846,0.871,-7.12,drop,high,robust_zscore
+2025-09,network,Surescripts,median_freshness_days,2.4,2.6,-2.7,drop,medium,robust_zscore
+2025-11,network+data_type,Bamboo Health / adt_events,coverage_rate,0.395,0.411,-3.32,drop,medium,robust_zscore
+2026-01,network+data_type,Bamboo Health / adt_events,coverage_rate,0.398,0.411,-2.57,drop,medium,robust_zscore
+2025-11,network+data_type,Bamboo Health / adt_events,match_rate,0.767,0.787,-6.13,drop,high,robust_zscore
+2025-12,network+data_type,Bamboo Health / adt_events,match_rate,0.765,0.787,-6.59,drop,high,robust_zscore
+2026-01,network+data_type,Bamboo Health / adt_events,match_rate,0.765,0.787,-6.7,drop,high,robust_zscore
+2026-02,network+data_type,Bamboo Health / adt_events,match_rate,0.766,0.787,-6.37,drop,high,robust_zscore
+2025-11,network+data_type,Carequality / allergies,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / allergies,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network+data_type,Carequality / allergies,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network+data_type,Carequality / allergies,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2025-11,network+data_type,Carequality / conditions,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / conditions,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network+data_type,Carequality / conditions,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network+data_type,Carequality / conditions,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2026-05,network+data_type,Carequality / documents,coverage_rate,0.626,0.58,2.7,spike,medium,robust_zscore
+2026-06,network+data_type,Carequality / documents,coverage_rate,0.637,0.58,3.35,spike,medium,robust_zscore
+2025-11,network+data_type,Carequality / documents,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / documents,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network+data_type,Carequality / documents,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network+data_type,Carequality / documents,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2025-07,network+data_type,Carequality / documents,median_freshness_days,15.1,15.85,-2.53,drop,medium,robust_zscore
+2026-06,network+data_type,Carequality / encounters,coverage_rate,0.677,0.616,2.74,spike,medium,robust_zscore
+2025-11,network+data_type,Carequality / encounters,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / encounters,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network+data_type,Carequality / encounters,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network+data_type,Carequality / encounters,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2026-05,network+data_type,Carequality / immunizations,coverage_rate,0.671,0.617,2.55,spike,medium,robust_zscore
+2026-06,network+data_type,Carequality / immunizations,coverage_rate,0.678,0.617,2.88,spike,medium,robust_zscore
+2025-11,network+data_type,Carequality / immunizations,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / immunizations,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network+data_type,Carequality / immunizations,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network+data_type,Carequality / immunizations,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2025-11,network+data_type,Carequality / labs,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / labs,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network+data_type,Carequality / labs,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network+data_type,Carequality / labs,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / labs,median_freshness_days,3.3,3.1,2.7,spike,medium,robust_zscore
+2026-05,network+data_type,Carequality / medications,coverage_rate,0.667,0.615,2.68,spike,medium,robust_zscore
+2026-06,network+data_type,Carequality / medications,coverage_rate,0.674,0.615,3.04,spike,medium,robust_zscore
+2025-11,network+data_type,Carequality / medications,match_rate,0.781,0.805,-5.66,drop,high,robust_zscore
+2025-12,network+data_type,Carequality / medications,match_rate,0.779,0.805,-6.17,drop,high,robust_zscore
+2026-01,network+data_type,Carequality / medications,match_rate,0.782,0.805,-5.4,drop,high,robust_zscore
+2026-02,network+data_type,Carequality / medications,match_rate,0.784,0.805,-5.05,drop,high,robust_zscore
+2026-06,network+data_type,CommonWell / conditions,median_freshness_days,11.8,12.7,-3.04,drop,medium,robust_zscore
+2025-11,network+data_type,CommonWell / encounters,coverage_rate,0.482,0.497,-3.93,drop,medium,robust_zscore
+2025-12,network+data_type,CommonWell / encounters,coverage_rate,0.486,0.497,-2.81,drop,medium,robust_zscore
+2026-01,network+data_type,CommonWell / encounters,coverage_rate,0.484,0.497,-3.44,drop,medium,robust_zscore
+2026-02,network+data_type,CommonWell / encounters,coverage_rate,0.478,0.497,-5.14,drop,high,robust_zscore
+2025-10,network+data_type,CommonWell / encounters,median_freshness_days,11.4,10.3,3.71,spike,medium,robust_zscore
+2025-11,network+data_type,CommonWell / encounters,median_freshness_days,11.1,10.3,2.7,spike,medium,robust_zscore
+2025-12,network+data_type,CommonWell / immunizations,coverage_rate,0.481,0.495,-2.71,drop,medium,robust_zscore
+2026-02,network+data_type,CommonWell / immunizations,coverage_rate,0.475,0.495,-3.74,drop,medium,robust_zscore
+2025-08,network+data_type,CommonWell / labs,median_freshness_days,3.0,3.2,-2.7,drop,medium,robust_zscore
+2025-10,network+data_type,CommonWell / labs,median_freshness_days,3.0,3.2,-2.7,drop,medium,robust_zscore
+2025-12,network+data_type,CommonWell / labs,median_freshness_days,2.8,3.2,-5.4,drop,high,robust_zscore
+2025-11,network+data_type,CommonWell / medications,coverage_rate,0.483,0.497,-4.07,drop,high,robust_zscore
+2025-12,network+data_type,CommonWell / medications,coverage_rate,0.478,0.497,-5.37,drop,high,robust_zscore
+2026-01,network+data_type,CommonWell / medications,coverage_rate,0.484,0.497,-3.56,drop,medium,robust_zscore
+2026-02,network+data_type,CommonWell / medications,coverage_rate,0.481,0.497,-4.46,drop,high,robust_zscore
+2025-11,network+data_type,PointClickCare / adt_events,match_rate,0.744,0.767,-5.71,drop,high,robust_zscore
+2025-12,network+data_type,PointClickCare / adt_events,match_rate,0.746,0.767,-5.21,drop,high,robust_zscore
+2026-01,network+data_type,PointClickCare / adt_events,match_rate,0.742,0.767,-6.03,drop,high,robust_zscore
+2026-02,network+data_type,PointClickCare / adt_events,match_rate,0.745,0.767,-5.32,drop,high,robust_zscore
+2025-11,network+data_type,Quest Labs / labs,match_rate,0.802,0.824,-4.49,drop,high,robust_zscore
+2025-12,network+data_type,Quest Labs / labs,match_rate,0.799,0.824,-5.13,drop,high,robust_zscore
+2026-01,network+data_type,Quest Labs / labs,match_rate,0.799,0.824,-5.18,drop,high,robust_zscore
+2026-02,network+data_type,Quest Labs / labs,match_rate,0.799,0.824,-5.2,drop,high,robust_zscore
+2026-04,network+data_type,Quest Labs / labs,median_freshness_days,19.3,3.2,108.59,spike,high,robust_zscore
+2026-05,network+data_type,Quest Labs / labs,median_freshness_days,19.0,3.2,106.57,spike,high,robust_zscore
+2025-11,network+data_type,Surescripts / medications,coverage_rate,0.723,0.742,-2.84,drop,medium,robust_zscore
+2026-01,network+data_type,Surescripts / medications,coverage_rate,0.721,0.742,-3.13,drop,medium,robust_zscore
+2026-02,network+data_type,Surescripts / medications,coverage_rate,0.715,0.742,-4.17,drop,high,robust_zscore
+2025-11,network+data_type,Surescripts / medications,match_rate,0.846,0.871,-6.98,drop,high,robust_zscore
+2025-12,network+data_type,Surescripts / medications,match_rate,0.847,0.871,-6.7,drop,high,robust_zscore
+2026-01,network+data_type,Surescripts / medications,match_rate,0.847,0.871,-6.76,drop,high,robust_zscore
+2026-02,network+data_type,Surescripts / medications,match_rate,0.846,0.871,-7.12,drop,high,robust_zscore
+2025-09,network+data_type,Surescripts / medications,median_freshness_days,2.4,2.6,-2.7,drop,medium,robust_zscore
+2026-05,customer,Bluebird Palliativ,median_freshness_days,11.85,10.225,3.13,spike,medium,robust_zscore
+2025-12,customer,Cascade Kidney,coverage_rate,0.553,0.566,-2.72,drop,medium,robust_zscore
+2026-06,customer,Cascade Kidney,coverage_rate,0.596,0.566,6.39,spike,high,robust_zscore
+2025-07,customer,Elation Direct,match_rate,0.814,0.817,-2.86,drop,medium,robust_zscore
+2025-09,customer,Elation Direct,match_rate,0.821,0.817,3.01,spike,medium,robust_zscore
+2026-03,customer,Elation Direct,match_rate,0.821,0.817,2.71,spike,medium,robust_zscore
+2026-06,customer,Elation Direct,match_rate,0.822,0.817,4.15,spike,high,robust_zscore
+2026-04,customer,Elation Direct,median_freshness_days,11.4,10.225,5.28,spike,high,robust_zscore
+2026-05,customer,Elation Direct,median_freshness_days,11.4,10.225,5.28,spike,high,robust_zscore
+2026-06,customer,Harborview VBC,coverage_rate,0.568,0.55,3.0,spike,medium,robust_zscore
+2025-07,customer,Harborview VBC,median_freshness_days,8.6,9.975,-4.12,drop,high,robust_zscore
+2026-04,customer,Harborview VBC,median_freshness_days,10.85,9.975,2.62,spike,medium,robust_zscore
+2026-04,customer,Lumen Behavioral,median_freshness_days,11.4,10.225,4.53,spike,high,robust_zscore
+2026-04,customer,Motive Care,median_freshness_days,11.8,10.025,5.99,spike,high,robust_zscore
+2026-05,customer,Motive Care,median_freshness_days,11.0,10.025,3.29,spike,medium,robust_zscore
+2026-02,customer,Oak Grove Health,coverage_rate,0.445,0.485,-4.86,drop,high,robust_zscore
+2025-10,customer,Oak Grove Health,match_rate,0.788,0.778,4.98,spike,high,robust_zscore
+2026-04,customer,Oak Grove Health,match_rate,0.772,0.778,-2.87,drop,medium,robust_zscore
+2026-05,customer,Oak Grove Health,median_freshness_days,11.35,10.05,2.92,spike,medium,robust_zscore
+2025-12,state+network,AL / Bamboo Health,coverage_rate,0.412,0.381,2.69,spike,medium,robust_zscore
+2025-07,state+network,AL / Bamboo Health,match_rate,0.812,0.788,3.87,spike,medium,robust_zscore
+2025-08,state+network,AL / CommonWell,match_rate,0.726,0.756,-3.36,drop,medium,robust_zscore
+2026-02,state+network,AL / CommonWell,match_rate,0.733,0.756,-2.59,drop,medium,robust_zscore
+2025-07,state+network,AL / CommonWell,median_freshness_days,13.8,12.25,3.22,spike,medium,robust_zscore
+2026-04,state+network,AL / Quest Labs,median_freshness_days,20.25,3.125,42.0,spike,high,robust_zscore
+2026-05,state+network,AL / Quest Labs,median_freshness_days,20.6,3.125,42.86,spike,high,robust_zscore
+2025-11,state+network,AL / Surescripts,median_freshness_days,2.2,2.575,-3.37,drop,medium,robust_zscore
+2025-12,state+network,AL / Surescripts,median_freshness_days,2.1,2.575,-4.27,drop,high,robust_zscore
+2026-04,state+network,AL / Surescripts,median_freshness_days,2.95,2.575,3.37,spike,medium,robust_zscore
+2026-03,state+network,AZ / Carequality,coverage_rate,0.636,0.578,3.74,spike,medium,robust_zscore
+2026-04,state+network,AZ / Carequality,coverage_rate,0.62,0.578,2.7,spike,medium,robust_zscore
+2026-05,state+network,AZ / Carequality,coverage_rate,0.652,0.578,4.76,spike,high,robust_zscore
+2026-06,state+network,AZ / Carequality,coverage_rate,0.648,0.578,4.48,spike,high,robust_zscore
+2025-09,state+network,AZ / Carequality,median_freshness_days,12.9,12.05,2.55,spike,medium,robust_zscore
+2026-03,state+network,AZ / Carequality,median_freshness_days,10.55,12.05,-4.5,drop,high,robust_zscore
+2025-10,state+network,AZ / CommonWell,median_freshness_days,14.5,12.45,4.25,spike,high,robust_zscore
+2025-12,state+network,AZ / CommonWell,median_freshness_days,10.75,12.45,-3.53,drop,medium,robust_zscore
+2026-03,state+network,AZ / CommonWell,median_freshness_days,14.4,12.45,4.05,spike,high,robust_zscore
+2026-04,state+network,AZ / Quest Labs,match_rate,0.799,0.749,3.08,spike,medium,robust_zscore
+2026-05,state+network,AZ / Quest Labs,match_rate,0.798,0.749,2.98,spike,medium,robust_zscore
+2026-06,state+network,AZ / Quest Labs,match_rate,0.801,0.749,3.18,spike,medium,robust_zscore
+2026-04,state+network,AZ / Quest Labs,median_freshness_days,19.35,2.9,40.35,spike,high,robust_zscore
+2026-05,state+network,AZ / Quest Labs,median_freshness_days,18.2,2.9,37.53,spike,high,robust_zscore
+2025-08,state+network,AZ / Surescripts,coverage_rate,0.748,0.701,2.91,spike,medium,robust_zscore
+2025-09,state+network,CA / Bamboo Health,match_rate,0.807,0.792,2.55,spike,medium,robust_zscore
+2026-05,state+network,CA / Bamboo Health,match_rate,0.814,0.792,3.6,spike,medium,robust_zscore
+2025-07,state+network,CA / CommonWell,match_rate,0.743,0.754,-3.1,drop,medium,robust_zscore
+2026-03,state+network,CA / CommonWell,match_rate,0.738,0.754,-4.35,drop,high,robust_zscore
+2025-08,state+network,CA / CommonWell,median_freshness_days,11.8,12.475,-2.6,drop,medium,robust_zscore
+2026-06,state+network,CA / CommonWell,median_freshness_days,11.25,12.475,-4.72,drop,high,robust_zscore
+2025-10,state+network,CA / PointClickCare,coverage_rate,0.383,0.364,3.44,spike,medium,robust_zscore
+2026-01,state+network,CA / PointClickCare,match_rate,0.749,0.777,-6.93,drop,high,robust_zscore
+2025-10,state+network,CA / Quest Labs,coverage_rate,0.365,0.385,-2.89,drop,medium,robust_zscore
+2025-07,state+network,CA / Quest Labs,median_freshness_days,3.6,3.2,5.4,spike,high,robust_zscore
+2025-10,state+network,CA / Quest Labs,median_freshness_days,3.8,3.2,8.09,spike,high,robust_zscore
+2026-03,state+network,CA / Quest Labs,median_freshness_days,2.95,3.2,-3.37,drop,medium,robust_zscore
+2026-04,state+network,CA / Quest Labs,median_freshness_days,19.0,3.2,213.14,spike,high,robust_zscore
+2026-05,state+network,CA / Quest Labs,median_freshness_days,18.6,3.2,207.75,spike,high,robust_zscore
+2025-07,state+network,CA / Surescripts,coverage_rate,0.795,0.776,5.12,spike,high,robust_zscore
+2026-02,state+network,CA / Surescripts,coverage_rate,0.738,0.776,-9.79,drop,high,robust_zscore
+2026-05,state+network,CA / Surescripts,coverage_rate,0.761,0.776,-3.76,drop,medium,robust_zscore
+2025-07,state+network,CA / Surescripts,match_rate,0.901,0.877,3.12,spike,medium,robust_zscore
+2025-10,state+network,CO / Bamboo Health,coverage_rate,0.492,0.466,2.74,spike,medium,robust_zscore
+2026-01,state+network,CO / Bamboo Health,match_rate,0.78,0.809,-6.13,drop,high,robust_zscore
+2025-11,state+network,CO / CommonWell,median_freshness_days,14.0,12.6,2.52,spike,medium,robust_zscore
+2026-02,state+network,CO / PointClickCare,coverage_rate,0.352,0.391,-2.74,drop,medium,robust_zscore
+2026-04,state+network,CO / Quest Labs,median_freshness_days,17.6,3.3,42.87,spike,high,robust_zscore
+2026-05,state+network,CO / Quest Labs,median_freshness_days,18.2,3.3,44.67,spike,high,robust_zscore
+2025-07,state+network,CO / Surescripts,median_freshness_days,3.2,2.475,2.79,spike,medium,robust_zscore
+2026-02,state+network,FL / Carequality,coverage_rate,0.293,0.525,-9.73,drop,high,robust_zscore
+2026-05,state+network,FL / Carequality,coverage_rate,0.59,0.525,2.72,spike,medium,robust_zscore
+2026-06,state+network,FL / Carequality,coverage_rate,0.586,0.525,2.53,spike,medium,robust_zscore
+2025-09,state+network,FL / Quest Labs,coverage_rate,0.417,0.38,4.13,spike,high,robust_zscore
+2026-01,state+network,FL / Quest Labs,coverage_rate,0.35,0.38,-3.4,drop,medium,robust_zscore
+2026-03,state+network,FL / Quest Labs,coverage_rate,0.407,0.38,2.98,spike,medium,robust_zscore
+2026-04,state+network,FL / Quest Labs,median_freshness_days,20.0,3.55,27.74,spike,high,robust_zscore
+2026-05,state+network,FL / Quest Labs,median_freshness_days,18.1,3.55,24.53,spike,high,robust_zscore
+2025-11,state+network,GA / Bamboo Health,match_rate,0.731,0.792,-3.73,drop,medium,robust_zscore
+2025-12,state+network,GA / Bamboo Health,match_rate,0.726,0.792,-4.04,drop,high,robust_zscore
+2026-01,state+network,GA / Bamboo Health,match_rate,0.734,0.792,-3.54,drop,medium,robust_zscore
+2026-02,state+network,GA / Bamboo Health,match_rate,0.733,0.792,-3.63,drop,medium,robust_zscore
+2026-02,state+network,GA / Carequality,coverage_rate,0.329,0.614,-4.75,drop,high,robust_zscore
+2025-11,state+network,GA / Carequality,match_rate,0.739,0.806,-2.57,drop,medium,robust_zscore
+2025-12,state+network,GA / Carequality,match_rate,0.732,0.806,-2.8,drop,medium,robust_zscore
+2026-01,state+network,GA / Carequality,match_rate,0.739,0.806,-2.56,drop,medium,robust_zscore
+2026-05,state+network,GA / Carequality,median_freshness_days,11.1,12.75,-2.78,drop,medium,robust_zscore
+2026-02,state+network,GA / CommonWell,match_rate,0.676,0.736,-2.54,drop,medium,robust_zscore
+2025-07,state+network,GA / CommonWell,median_freshness_days,11.4,12.6,-2.94,drop,medium,robust_zscore
+2025-12,state+network,GA / PointClickCare,match_rate,0.694,0.773,-3.18,drop,medium,robust_zscore
+2026-01,state+network,GA / PointClickCare,match_rate,0.707,0.773,-2.66,drop,medium,robust_zscore
+2025-11,state+network,GA / Quest Labs,match_rate,0.769,0.82,-3.68,drop,medium,robust_zscore
+2025-12,state+network,GA / Quest Labs,match_rate,0.754,0.82,-4.76,drop,high,robust_zscore
+2026-01,state+network,GA / Quest Labs,match_rate,0.773,0.82,-3.4,drop,medium,robust_zscore
+2026-02,state+network,GA / Quest Labs,match_rate,0.769,0.82,-3.67,drop,medium,robust_zscore
+2026-04,state+network,GA / Quest Labs,median_freshness_days,20.8,3.325,94.3,spike,high,robust_zscore
+2026-05,state+network,GA / Quest Labs,median_freshness_days,20.7,3.325,93.76,spike,high,robust_zscore
+2026-01,state+network,GA / Surescripts,match_rate,0.796,0.862,-2.51,drop,medium,robust_zscore
+2025-10,state+network,GA / Surescripts,median_freshness_days,2.4,2.875,-3.2,drop,medium,robust_zscore
+2025-12,state+network,GA / Surescripts,median_freshness_days,2.1,2.875,-5.23,drop,high,robust_zscore
+2025-09,state+network,ID / Bamboo Health,coverage_rate,0.347,0.331,2.61,spike,medium,robust_zscore
+2026-04,state+network,ID / Bamboo Health,coverage_rate,0.314,0.331,-3.02,drop,medium,robust_zscore
+2026-06,state+network,ID / Bamboo Health,coverage_rate,0.301,0.331,-5.2,drop,high,robust_zscore
+2026-02,state+network,ID / CommonWell,coverage_rate,0.43,0.4,3.41,spike,medium,robust_zscore
+2026-02,state+network,ID / CommonWell,match_rate,0.742,0.703,3.23,spike,medium,robust_zscore
+2025-07,state+network,ID / CommonWell,median_freshness_days,9.6,12.2,-3.9,drop,medium,robust_zscore
+2025-11,state+network,ID / CommonWell,median_freshness_days,14.9,12.2,4.05,spike,high,robust_zscore
+2025-12,state+network,ID / CommonWell,median_freshness_days,10.1,12.2,-3.15,drop,medium,robust_zscore
+2026-02,state+network,ID / CommonWell,median_freshness_days,14.7,12.2,3.75,spike,medium,robust_zscore
+2026-04,state+network,ID / Quest Labs,median_freshness_days,21.0,3.05,22.01,spike,high,robust_zscore
+2026-05,state+network,ID / Quest Labs,median_freshness_days,19.1,3.05,19.68,spike,high,robust_zscore
+2026-03,state+network,IL / Bamboo Health,coverage_rate,0.385,0.415,-3.26,drop,medium,robust_zscore
+2026-05,state+network,IL / Bamboo Health,match_rate,0.848,0.815,3.26,spike,medium,robust_zscore
+2025-10,state+network,IL / CommonWell,coverage_rate,0.495,0.511,-2.73,drop,medium,robust_zscore
+2026-01,state+network,IL / CommonWell,coverage_rate,0.492,0.511,-3.11,drop,medium,robust_zscore
+2026-04,state+network,IL / CommonWell,coverage_rate,0.529,0.511,2.97,spike,medium,robust_zscore
+2026-01,state+network,IL / CommonWell,match_rate,0.743,0.773,-3.39,drop,medium,robust_zscore
+2026-04,state+network,IL / CommonWell,match_rate,0.803,0.773,3.38,spike,medium,robust_zscore
+2025-07,state+network,IL / PointClickCare,coverage_rate,0.32,0.367,-5.3,drop,high,robust_zscore
+2026-04,state+network,IL / PointClickCare,coverage_rate,0.315,0.367,-5.92,drop,high,robust_zscore
+2025-07,state+network,IL / Quest Labs,match_rate,0.891,0.86,4.18,spike,high,robust_zscore
+2025-09,state+network,IL / Quest Labs,match_rate,0.837,0.86,-3.08,drop,medium,robust_zscore
+2026-04,state+network,IL / Quest Labs,match_rate,0.879,0.86,2.58,spike,medium,robust_zscore
+2026-04,state+network,IL / Quest Labs,median_freshness_days,16.3,3.4,17.4,spike,high,robust_zscore
+2026-05,state+network,IL / Quest Labs,median_freshness_days,19.3,3.4,21.45,spike,high,robust_zscore
+2026-03,state+network,IL / Surescripts,match_rate,0.934,0.906,3.01,spike,medium,robust_zscore
+2026-04,state+network,IL / Surescripts,match_rate,0.931,0.906,2.67,spike,medium,robust_zscore
+2025-07,state+network,KY / Bamboo Health,match_rate,0.831,0.805,2.65,spike,medium,robust_zscore
+2025-08,state+network,KY / Carequality,coverage_rate,0.572,0.634,-2.72,drop,medium,robust_zscore
+2025-11,state+network,KY / Carequality,match_rate,0.858,0.827,2.65,spike,medium,robust_zscore
+2025-12,state+network,KY / CommonWell,coverage_rate,0.511,0.495,2.57,spike,medium,robust_zscore
+2026-05,state+network,KY / CommonWell,coverage_rate,0.514,0.495,3.0,spike,medium,robust_zscore
+2025-07,state+network,KY / CommonWell,median_freshness_days,13.8,12.25,2.99,spike,medium,robust_zscore
+2025-08,state+network,KY / CommonWell,median_freshness_days,14.7,12.25,4.72,spike,high,robust_zscore
+2025-11,state+network,KY / CommonWell,median_freshness_days,13.6,12.25,2.6,spike,medium,robust_zscore
+2026-05,state+network,KY / CommonWell,median_freshness_days,13.6,12.25,2.6,spike,medium,robust_zscore
+2026-04,state+network,KY / PointClickCare,match_rate,0.82,0.79,3.03,spike,medium,robust_zscore
+2025-11,state+network,KY / Quest Labs,match_rate,0.821,0.858,-3.08,drop,medium,robust_zscore
+2026-04,state+network,KY / Quest Labs,median_freshness_days,19.2,3.1,24.13,spike,high,robust_zscore
+2026-05,state+network,KY / Quest Labs,median_freshness_days,21.3,3.1,27.28,spike,high,robust_zscore
+2025-12,state+network,KY / Surescripts,coverage_rate,0.797,0.737,3.71,spike,medium,robust_zscore
+2025-07,state+network,KY / Surescripts,match_rate,0.933,0.895,2.83,spike,medium,robust_zscore
+2025-12,state+network,LA / CommonWell,coverage_rate,0.442,0.459,-3.06,drop,medium,robust_zscore
+2025-08,state+network,LA / CommonWell,median_freshness_days,9.75,12.0,-3.37,drop,medium,robust_zscore
+2026-03,state+network,LA / Quest Labs,match_rate,0.791,0.825,-4.29,drop,high,robust_zscore
+2026-04,state+network,LA / Quest Labs,median_freshness_days,17.8,3.175,43.84,spike,high,robust_zscore
+2026-05,state+network,LA / Quest Labs,median_freshness_days,20.65,3.175,52.39,spike,high,robust_zscore
+2025-08,state+network,MA / Bamboo Health,coverage_rate,0.43,0.469,-2.73,drop,medium,robust_zscore
+2025-11,state+network,MA / Bamboo Health,coverage_rate,0.431,0.469,-2.7,drop,medium,robust_zscore
+2025-11,state+network,MA / Carequality,match_rate,0.787,0.821,-2.51,drop,medium,robust_zscore
+2025-12,state+network,MA / PointClickCare,coverage_rate,0.362,0.394,-2.63,drop,medium,robust_zscore
+2026-04,state+network,MA / Quest Labs,median_freshness_days,20.1,3.35,37.66,spike,high,robust_zscore
+2026-05,state+network,MA / Quest Labs,median_freshness_days,18.6,3.35,34.29,spike,high,robust_zscore
+2025-12,state+network,MD / Bamboo Health,coverage_rate,0.426,0.483,-2.73,drop,medium,robust_zscore
+2026-02,state+network,MD / Carequality,coverage_rate,0.403,0.735,-10.04,drop,high,robust_zscore
+2025-11,state+network,MD / CommonWell,coverage_rate,0.57,0.586,-4.0,drop,medium,robust_zscore
+2026-03,state+network,MD / CommonWell,coverage_rate,0.563,0.586,-5.63,drop,high,robust_zscore
+2026-04,state+network,MD / CommonWell,coverage_rate,0.566,0.586,-4.82,drop,high,robust_zscore
+2026-04,state+network,MD / Quest Labs,match_rate,0.912,0.88,2.52,spike,medium,robust_zscore
+2026-04,state+network,MD / Quest Labs,median_freshness_days,20.1,3.45,28.08,spike,high,robust_zscore
+2026-05,state+network,MD / Quest Labs,median_freshness_days,18.3,3.45,25.04,spike,high,robust_zscore
+2025-07,state+network,MD / Surescripts,coverage_rate,0.922,0.857,4.1,spike,high,robust_zscore
+2026-06,state+network,MI / Bamboo Health,match_rate,0.824,0.774,2.92,spike,medium,robust_zscore
+2025-07,state+network,MI / Carequality,median_freshness_days,15.1,12.65,2.75,spike,medium,robust_zscore
+2026-02,state+network,MI / Carequality,median_freshness_days,15.3,12.65,2.98,spike,medium,robust_zscore
+2026-04,state+network,MI / CommonWell,coverage_rate,0.565,0.532,5.4,spike,high,robust_zscore
+2026-01,state+network,MI / CommonWell,median_freshness_days,15.2,12.25,4.42,spike,high,robust_zscore
+2026-04,state+network,MI / CommonWell,median_freshness_days,14.1,12.25,2.77,spike,medium,robust_zscore
+2025-07,state+network,MI / PointClickCare,coverage_rate,0.411,0.373,4.14,spike,high,robust_zscore
+2025-07,state+network,MI / PointClickCare,match_rate,0.788,0.763,3.06,spike,medium,robust_zscore
+2025-11,state+network,MI / PointClickCare,match_rate,0.735,0.763,-3.42,drop,medium,robust_zscore
+2025-08,state+network,MI / Quest Labs,match_rate,0.842,0.815,2.61,spike,medium,robust_zscore
+2026-04,state+network,MI / Quest Labs,median_freshness_days,19.4,2.85,37.21,spike,high,robust_zscore
+2026-05,state+network,MI / Quest Labs,median_freshness_days,17.6,2.85,33.16,spike,high,robust_zscore
+2026-03,state+network,MI / Surescripts,coverage_rate,0.769,0.806,-3.81,drop,medium,robust_zscore
+2025-08,state+network,MS / Bamboo Health,match_rate,0.764,0.78,-4.67,drop,high,robust_zscore
+2025-11,state+network,MS / Bamboo Health,match_rate,0.8,0.78,6.28,spike,high,robust_zscore
+2025-11,state+network,MS / CommonWell,coverage_rate,0.425,0.404,6.7,spike,high,robust_zscore
+2025-11,state+network,MS / CommonWell,match_rate,0.763,0.734,4.88,spike,high,robust_zscore
+2025-07,state+network,MS / PointClickCare,coverage_rate,0.278,0.306,-4.42,drop,high,robust_zscore
+2025-11,state+network,MS / PointClickCare,coverage_rate,0.322,0.306,2.63,spike,medium,robust_zscore
+2025-07,state+network,MS / PointClickCare,match_rate,0.735,0.759,-3.52,drop,medium,robust_zscore
+2025-09,state+network,MS / Quest Labs,match_rate,0.827,0.813,2.77,spike,medium,robust_zscore
+2026-02,state+network,MS / Quest Labs,match_rate,0.793,0.813,-3.6,drop,medium,robust_zscore
+2026-04,state+network,MS / Quest Labs,median_freshness_days,20.7,3.45,33.24,spike,high,robust_zscore
+2026-05,state+network,MS / Quest Labs,median_freshness_days,21.1,3.45,34.01,spike,high,robust_zscore
+2026-04,state+network,MS / Surescripts,coverage_rate,0.613,0.657,-3.03,drop,medium,robust_zscore
+2025-11,state+network,MT / Bamboo Health,match_rate,0.569,0.713,-2.73,drop,medium,robust_zscore
+2025-12,state+network,MT / Bamboo Health,match_rate,0.578,0.713,-2.56,drop,medium,robust_zscore
+2026-02,state+network,MT / Bamboo Health,match_rate,0.569,0.713,-2.74,drop,medium,robust_zscore
+2026-01,state+network,MT / Carequality,match_rate,0.552,0.735,-2.99,drop,medium,robust_zscore
+2026-02,state+network,MT / Carequality,match_rate,0.573,0.735,-2.65,drop,medium,robust_zscore
+2025-10,state+network,MT / CommonWell,median_freshness_days,13.7,12.2,3.11,spike,medium,robust_zscore
+2026-05,state+network,MT / CommonWell,median_freshness_days,10.25,12.2,-4.05,drop,high,robust_zscore
+2026-04,state+network,MT / Quest Labs,median_freshness_days,19.5,3.45,21.65,spike,high,robust_zscore
+2026-05,state+network,MT / Quest Labs,median_freshness_days,17.85,3.45,19.43,spike,high,robust_zscore
+2026-04,state+network,NC / Bamboo Health,coverage_rate,0.448,0.475,-2.5,drop,medium,robust_zscore
+2025-12,state+network,NC / Bamboo Health,match_rate,0.856,0.838,2.59,spike,medium,robust_zscore
+2026-02,state+network,NC / Carequality,coverage_rate,0.4,0.721,-6.91,drop,high,robust_zscore
+2025-07,state+network,NC / Carequality,median_freshness_days,9.8,11.75,-2.63,drop,medium,robust_zscore
+2025-07,state+network,NC / CommonWell,coverage_rate,0.59,0.574,2.95,spike,medium,robust_zscore
+2026-03,state+network,NC / CommonWell,coverage_rate,0.559,0.574,-2.61,drop,medium,robust_zscore
+2026-02,state+network,NC / PointClickCare,match_rate,0.849,0.815,2.73,spike,medium,robust_zscore
+2025-08,state+network,NC / Quest Labs,match_rate,0.903,0.882,6.14,spike,high,robust_zscore
+2025-11,state+network,NC / Quest Labs,match_rate,0.899,0.882,4.96,spike,high,robust_zscore
+2025-12,state+network,NC / Quest Labs,match_rate,0.867,0.882,-4.15,drop,high,robust_zscore
+2026-01,state+network,NC / Quest Labs,match_rate,0.895,0.882,3.81,spike,medium,robust_zscore
+2026-02,state+network,NC / Quest Labs,match_rate,0.87,0.882,-3.36,drop,medium,robust_zscore
+2026-04,state+network,NC / Quest Labs,median_freshness_days,20.7,3.35,21.28,spike,high,robust_zscore
+2026-05,state+network,NC / Quest Labs,median_freshness_days,16.4,3.35,16.0,spike,high,robust_zscore
+2025-10,state+network,NJ / Carequality,match_rate,0.742,0.776,-2.58,drop,medium,robust_zscore
+2026-04,state+network,NJ / PointClickCare,coverage_rate,0.304,0.333,-2.59,drop,medium,robust_zscore
+2026-04,state+network,NJ / Quest Labs,coverage_rate,0.477,0.431,2.52,spike,medium,robust_zscore
+2026-04,state+network,NJ / Quest Labs,match_rate,0.819,0.794,4.15,spike,high,robust_zscore
+2026-04,state+network,NJ / Quest Labs,median_freshness_days,21.7,3.45,35.17,spike,high,robust_zscore
+2026-05,state+network,NJ / Quest Labs,median_freshness_days,16.7,3.45,25.53,spike,high,robust_zscore
+2025-07,state+network,NM / CommonWell,median_freshness_days,13.35,11.875,3.06,spike,medium,robust_zscore
+2025-10,state+network,NM / Quest Labs,coverage_rate,0.286,0.312,-3.05,drop,medium,robust_zscore
+2025-12,state+network,NM / Quest Labs,coverage_rate,0.333,0.312,2.55,spike,medium,robust_zscore
+2026-01,state+network,NM / Quest Labs,coverage_rate,0.281,0.312,-3.73,drop,medium,robust_zscore
+2026-04,state+network,NM / Quest Labs,median_freshness_days,19.15,3.3,30.55,spike,high,robust_zscore
+2026-05,state+network,NM / Quest Labs,median_freshness_days,19.8,3.3,31.8,spike,high,robust_zscore
+2025-09,state+network,NV / CommonWell,median_freshness_days,10.9,12.55,-2.62,drop,medium,robust_zscore
+2025-12,state+network,NV / CommonWell,median_freshness_days,14.3,12.55,2.78,spike,medium,robust_zscore
+2026-04,state+network,NV / Quest Labs,median_freshness_days,20.5,3.25,77.57,spike,high,robust_zscore
+2026-05,state+network,NV / Quest Labs,median_freshness_days,17.9,3.25,65.88,spike,high,robust_zscore
+2025-07,state+network,NV / Surescripts,median_freshness_days,3.2,2.625,3.1,spike,medium,robust_zscore
+2026-02,state+network,NV / Surescripts,median_freshness_days,2.1,2.625,-2.83,drop,medium,robust_zscore
+2026-03,state+network,NV / Surescripts,median_freshness_days,2.15,2.625,-2.56,drop,medium,robust_zscore
+2025-10,state+network,NY / Bamboo Health,coverage_rate,0.424,0.452,-2.6,drop,medium,robust_zscore
+2025-11,state+network,NY / Bamboo Health,match_rate,0.818,0.783,2.85,spike,medium,robust_zscore
+2026-04,state+network,NY / Carequality,match_rate,0.842,0.798,2.84,spike,medium,robust_zscore
+2025-10,state+network,NY / CommonWell,coverage_rate,0.576,0.549,2.79,spike,medium,robust_zscore
+2026-04,state+network,NY / CommonWell,median_freshness_days,14.6,12.15,2.54,spike,medium,robust_zscore
+2025-11,state+network,NY / Quest Labs,match_rate,0.864,0.828,2.92,spike,medium,robust_zscore
+2026-04,state+network,NY / Quest Labs,median_freshness_days,20.0,3.1,20.73,spike,high,robust_zscore
+2026-05,state+network,NY / Quest Labs,median_freshness_days,17.6,3.1,17.78,spike,high,robust_zscore
+2026-04,state+network,OH / CommonWell,coverage_rate,0.533,0.513,2.6,spike,medium,robust_zscore
+2025-08,state+network,OH / CommonWell,match_rate,0.758,0.733,3.56,spike,medium,robust_zscore
+2026-04,state+network,OH / CommonWell,match_rate,0.754,0.733,2.96,spike,medium,robust_zscore
+2025-11,state+network,OH / PointClickCare,coverage_rate,0.316,0.36,-3.35,drop,medium,robust_zscore
+2026-04,state+network,OH / Quest Labs,median_freshness_days,18.8,3.225,46.69,spike,high,robust_zscore
+2026-05,state+network,OH / Quest Labs,median_freshness_days,21.05,3.225,53.44,spike,high,robust_zscore
+2026-02,state+network,OH / Surescripts,coverage_rate,0.744,0.773,-2.8,drop,medium,robust_zscore
+2026-02,state+network,OH / Surescripts,match_rate,0.832,0.859,-4.2,drop,high,robust_zscore
+2026-03,state+network,OH / Surescripts,match_rate,0.886,0.859,3.92,spike,medium,robust_zscore
+2025-11,state+network,OK / Bamboo Health,match_rate,0.707,0.79,-3.55,drop,medium,robust_zscore
+2025-12,state+network,OK / Bamboo Health,match_rate,0.681,0.79,-4.66,drop,high,robust_zscore
+2026-01,state+network,OK / Bamboo Health,match_rate,0.699,0.79,-3.87,drop,medium,robust_zscore
+2026-02,state+network,OK / Bamboo Health,match_rate,0.683,0.79,-4.55,drop,high,robust_zscore
+2025-11,state+network,OK / Carequality,match_rate,0.713,0.797,-2.51,drop,medium,robust_zscore
+2025-12,state+network,OK / Carequality,match_rate,0.701,0.797,-2.86,drop,medium,robust_zscore
+2026-01,state+network,OK / Carequality,match_rate,0.708,0.797,-2.63,drop,medium,robust_zscore
+2026-02,state+network,OK / Carequality,match_rate,0.712,0.797,-2.51,drop,medium,robust_zscore
+2025-12,state+network,OK / Carequality,median_freshness_days,13.15,12.375,2.99,spike,medium,robust_zscore
+2026-04,state+network,OK / Carequality,median_freshness_days,14.35,12.375,7.61,spike,high,robust_zscore
+2025-11,state+network,OK / CommonWell,coverage_rate,0.367,0.428,-4.06,drop,high,robust_zscore
+2025-12,state+network,OK / CommonWell,coverage_rate,0.37,0.428,-3.84,drop,medium,robust_zscore
+2026-01,state+network,OK / CommonWell,coverage_rate,0.38,0.428,-3.21,drop,medium,robust_zscore
+2026-02,state+network,OK / CommonWell,coverage_rate,0.371,0.428,-3.77,drop,medium,robust_zscore
+2025-11,state+network,OK / CommonWell,match_rate,0.649,0.751,-4.65,drop,high,robust_zscore
+2025-12,state+network,OK / CommonWell,match_rate,0.646,0.751,-4.79,drop,high,robust_zscore
+2026-01,state+network,OK / CommonWell,match_rate,0.664,0.751,-3.97,drop,medium,robust_zscore
+2026-02,state+network,OK / CommonWell,match_rate,0.645,0.751,-4.82,drop,high,robust_zscore
+2026-02,state+network,OK / PointClickCare,match_rate,0.666,0.771,-2.55,drop,medium,robust_zscore
+2025-11,state+network,OK / Quest Labs,match_rate,0.707,0.822,-4.97,drop,high,robust_zscore
+2025-12,state+network,OK / Quest Labs,match_rate,0.715,0.822,-4.64,drop,high,robust_zscore
+2026-01,state+network,OK / Quest Labs,match_rate,0.708,0.822,-4.91,drop,high,robust_zscore
+2026-02,state+network,OK / Quest Labs,match_rate,0.72,0.822,-4.41,drop,high,robust_zscore
+2026-04,state+network,OK / Quest Labs,median_freshness_days,17.5,3.425,18.99,spike,high,robust_zscore
+2026-05,state+network,OK / Quest Labs,median_freshness_days,17.3,3.425,18.72,spike,high,robust_zscore
+2025-11,state+network,OK / Surescripts,match_rate,0.777,0.872,-3.1,drop,medium,robust_zscore
+2025-12,state+network,OK / Surescripts,match_rate,0.768,0.872,-3.41,drop,medium,robust_zscore
+2026-01,state+network,OK / Surescripts,match_rate,0.75,0.872,-3.97,drop,medium,robust_zscore
+2026-02,state+network,OK / Surescripts,match_rate,0.756,0.872,-3.79,drop,medium,robust_zscore
+2026-02,state+network,OR / Carequality,median_freshness_days,13.5,12.25,3.37,spike,medium,robust_zscore
+2026-06,state+network,OR / Carequality,median_freshness_days,11.2,12.25,-2.83,drop,medium,robust_zscore
+2026-05,state+network,OR / CommonWell,coverage_rate,0.541,0.522,3.42,spike,medium,robust_zscore
+2025-08,state+network,OR / Quest Labs,match_rate,0.806,0.833,-3.5,drop,medium,robust_zscore
+2026-04,state+network,OR / Quest Labs,median_freshness_days,18.6,3.4,34.17,spike,high,robust_zscore
+2026-05,state+network,OR / Quest Labs,median_freshness_days,18.9,3.4,34.85,spike,high,robust_zscore
+2025-10,state+network,PA / Carequality,median_freshness_days,11.1,12.55,-2.79,drop,medium,robust_zscore
+2026-01,state+network,PA / Carequality,median_freshness_days,14.05,12.55,2.89,spike,medium,robust_zscore
+2025-11,state+network,PA / CommonWell,match_rate,0.68,0.734,-2.55,drop,medium,robust_zscore
+2025-12,state+network,PA / CommonWell,match_rate,0.67,0.734,-3.01,drop,medium,robust_zscore
+2026-02,state+network,PA / CommonWell,match_rate,0.67,0.734,-3.03,drop,medium,robust_zscore
+2025-11,state+network,PA / PointClickCare,match_rate,0.694,0.752,-2.67,drop,medium,robust_zscore
+2026-01,state+network,PA / PointClickCare,match_rate,0.675,0.752,-3.51,drop,medium,robust_zscore
+2026-02,state+network,PA / PointClickCare,match_rate,0.683,0.752,-3.14,drop,medium,robust_zscore
+2026-04,state+network,PA / Quest Labs,median_freshness_days,18.5,3.225,31.7,spike,high,robust_zscore
+2026-05,state+network,PA / Quest Labs,median_freshness_days,18.4,3.225,31.49,spike,high,robust_zscore
+2025-11,state+network,PA / Surescripts,match_rate,0.783,0.857,-6.0,drop,high,robust_zscore
+2025-12,state+network,PA / Surescripts,match_rate,0.79,0.857,-5.43,drop,high,robust_zscore
+2026-01,state+network,PA / Surescripts,match_rate,0.8,0.857,-4.59,drop,high,robust_zscore
+2026-02,state+network,PA / Surescripts,match_rate,0.782,0.857,-6.11,drop,high,robust_zscore
+2025-11,state+network,TN / Bamboo Health,match_rate,0.786,0.811,-2.7,drop,medium,robust_zscore
+2025-12,state+network,TN / Bamboo Health,match_rate,0.763,0.811,-5.24,drop,high,robust_zscore
+2026-02,state+network,TN / Bamboo Health,match_rate,0.787,0.811,-2.62,drop,medium,robust_zscore
+2025-11,state+network,TN / Carequality,match_rate,0.785,0.825,-2.92,drop,medium,robust_zscore
+2025-09,state+network,TN / Carequality,median_freshness_days,13.25,12.25,2.7,spike,medium,robust_zscore
+2026-02,state+network,TN / Carequality,median_freshness_days,11.3,12.25,-2.56,drop,medium,robust_zscore
+2026-05,state+network,TN / Carequality,median_freshness_days,11.2,12.25,-2.83,drop,medium,robust_zscore
+2026-05,state+network,TN / CommonWell,coverage_rate,0.534,0.505,2.5,spike,medium,robust_zscore
+2025-11,state+network,TN / PointClickCare,match_rate,0.736,0.779,-2.73,drop,medium,robust_zscore
+2026-04,state+network,TN / Quest Labs,median_freshness_days,20.7,3.05,36.63,spike,high,robust_zscore
+2026-05,state+network,TN / Quest Labs,median_freshness_days,17.4,3.05,29.78,spike,high,robust_zscore
+2025-11,state+network,TN / Surescripts,match_rate,0.852,0.888,-3.12,drop,medium,robust_zscore
+2026-02,state+network,TN / Surescripts,match_rate,0.848,0.888,-3.42,drop,medium,robust_zscore
+2026-06,state+network,TX / Carequality,coverage_rate,0.569,0.507,2.84,spike,medium,robust_zscore
+2025-10,state+network,TX / CommonWell,coverage_rate,0.439,0.405,6.42,spike,high,robust_zscore
+2026-02,state+network,TX / CommonWell,coverage_rate,0.39,0.405,-2.86,drop,medium,robust_zscore
+2025-10,state+network,TX / CommonWell,match_rate,0.773,0.718,5.75,spike,high,robust_zscore
+2026-01,state+network,TX / Quest Labs,coverage_rate,0.233,0.254,-2.58,drop,medium,robust_zscore
+2026-05,state+network,TX / Quest Labs,coverage_rate,0.281,0.254,3.29,spike,medium,robust_zscore
+2026-04,state+network,TX / Quest Labs,median_freshness_days,20.4,3.05,78.02,spike,high,robust_zscore
+2026-05,state+network,TX / Quest Labs,median_freshness_days,16.5,3.05,60.48,spike,high,robust_zscore
+2026-01,state+network,TX / Surescripts,coverage_rate,0.591,0.63,-2.72,drop,medium,robust_zscore
+2026-06,state+network,TX / Surescripts,coverage_rate,0.688,0.63,4.01,spike,high,robust_zscore
+2026-02,state+network,TX / Surescripts,match_rate,0.797,0.829,-2.82,drop,medium,robust_zscore
+2026-06,state+network,TX / Surescripts,match_rate,0.858,0.829,2.55,spike,medium,robust_zscore
+2025-07,state+network,UT / Bamboo Health,coverage_rate,0.382,0.4,-2.61,drop,medium,robust_zscore
+2025-09,state+network,UT / Bamboo Health,coverage_rate,0.373,0.4,-3.94,drop,medium,robust_zscore
+2026-05,state+network,UT / Carequality,median_freshness_days,14.85,12.3,2.55,spike,medium,robust_zscore
+2025-08,state+network,UT / CommonWell,coverage_rate,0.494,0.483,2.71,spike,medium,robust_zscore
+2026-04,state+network,UT / CommonWell,coverage_rate,0.472,0.483,-2.51,drop,medium,robust_zscore
+2026-04,state+network,UT / CommonWell,match_rate,0.741,0.758,-2.86,drop,medium,robust_zscore
+2026-04,state+network,UT / CommonWell,median_freshness_days,13.35,12.075,2.87,spike,medium,robust_zscore
+2026-04,state+network,UT / Quest Labs,median_freshness_days,17.85,3.425,22.89,spike,high,robust_zscore
+2026-05,state+network,UT / Quest Labs,median_freshness_days,21.5,3.425,28.69,spike,high,robust_zscore
+2025-07,state+network,UT / Surescripts,match_rate,0.856,0.875,-3.77,drop,medium,robust_zscore
+2026-04,state+network,UT / Surescripts,match_rate,0.894,0.875,3.68,spike,medium,robust_zscore
+2025-08,state+network,VA / Bamboo Health,coverage_rate,0.479,0.443,2.89,spike,medium,robust_zscore
+2026-02,state+network,VA / Carequality,coverage_rate,0.374,0.675,-8.41,drop,high,robust_zscore
+2025-07,state+network,VA / Quest Labs,match_rate,0.905,0.873,2.54,spike,medium,robust_zscore
+2025-08,state+network,VA / Quest Labs,median_freshness_days,2.5,3.65,-3.88,drop,medium,robust_zscore
+2025-09,state+network,VA / Quest Labs,median_freshness_days,2.4,3.65,-4.22,drop,high,robust_zscore
+2026-04,state+network,VA / Quest Labs,median_freshness_days,21.4,3.65,59.86,spike,high,robust_zscore
+2026-05,state+network,VA / Quest Labs,median_freshness_days,18.1,3.65,48.73,spike,high,robust_zscore
+2026-06,state+network,VA / Quest Labs,median_freshness_days,2.6,3.65,-3.54,drop,medium,robust_zscore
+2025-07,state+network,WA / Bamboo Health,match_rate,0.82,0.788,2.71,spike,medium,robust_zscore
+2026-04,state+network,WA / Carequality,median_freshness_days,11.4,12.475,-3.22,drop,medium,robust_zscore
+2026-02,state+network,WA / PointClickCare,match_rate,0.755,0.776,-2.58,drop,medium,robust_zscore
+2026-06,state+network,WA / Quest Labs,coverage_rate,0.422,0.447,-3.61,drop,medium,robust_zscore
+2026-04,state+network,WA / Quest Labs,median_freshness_days,17.9,3.325,49.15,spike,high,robust_zscore
+2026-05,state+network,WA / Quest Labs,median_freshness_days,19.0,3.325,52.86,spike,high,robust_zscore
+2025-11,state+network,WA / Surescripts,coverage_rate,0.803,0.773,2.54,spike,medium,robust_zscore
+2025-12,state+network,WI / CommonWell,median_freshness_days,10.4,12.95,-3.13,drop,medium,robust_zscore
+2026-05,state+network,WI / CommonWell,median_freshness_days,15.5,12.95,3.13,spike,medium,robust_zscore
+2025-12,state+network,WI / PointClickCare,coverage_rate,0.352,0.399,-4.62,drop,high,robust_zscore
+2026-04,state+network,WI / Quest Labs,median_freshness_days,16.9,3.45,30.24,spike,high,robust_zscore
+2026-05,state+network,WI / Quest Labs,median_freshness_days,20.2,3.45,37.66,spike,high,robust_zscore
+2025-08,state+network,WI / Surescripts,match_rate,0.893,0.931,-2.85,drop,medium,robust_zscore
+2025-11,state+network,WI / Surescripts,match_rate,0.894,0.931,-2.76,drop,medium,robust_zscore
+2025-11,state+network,WY / Bamboo Health,coverage_rate,0.311,0.349,-2.74,drop,medium,robust_zscore
+2025-12,state+network,WY / Bamboo Health,coverage_rate,0.31,0.349,-2.81,drop,medium,robust_zscore
+2026-01,state+network,WY / Bamboo Health,coverage_rate,0.314,0.349,-2.52,drop,medium,robust_zscore
+2026-02,state+network,WY / Bamboo Health,coverage_rate,0.313,0.349,-2.54,drop,medium,robust_zscore
+2025-09,state+network,WY / Carequality,median_freshness_days,10.8,12.55,-2.95,drop,medium,robust_zscore
+2025-10,state+network,WY / Carequality,median_freshness_days,14.1,12.55,2.61,spike,medium,robust_zscore
+2025-11,state+network,WY / Carequality,median_freshness_days,14.1,12.55,2.61,spike,medium,robust_zscore
+2025-11,state+network,WY / CommonWell,match_rate,0.685,0.742,-2.7,drop,medium,robust_zscore
+2026-01,state+network,WY / Quest Labs,coverage_rate,0.247,0.307,-3.12,drop,medium,robust_zscore
+2026-04,state+network,WY / Quest Labs,median_freshness_days,18.1,3.2,33.5,spike,high,robust_zscore
+2026-05,state+network,WY / Quest Labs,median_freshness_days,18.8,3.2,35.07,spike,high,robust_zscore
+2026-06,state+network,OR / PointClickCare,coverage_rate,0.076,0.302,,drop,high,level_shift
+2026-06,state+network,WA / PointClickCare,coverage_rate,0.074,0.308,,drop,high,level_shift
+2026-04,network+data_type,Quest Labs / labs,median_freshness_days,19.3,7.0,,spike,high,slo_breach
+2026-05,network+data_type,Quest Labs / labs,median_freshness_days,19.0,7.0,,spike,high,slo_breach
